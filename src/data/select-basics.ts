@@ -77,7 +77,7 @@ export const selectBasicsQuestions: Question[] = [
     id: 10,
     question: "全社員数を数える行を追加したいです。定数文字列を選択してください。",
     sql: "SELECT ___ AS label, COUNT(*) AS cnt FROM employees;",
-    options: ["'社員数'", "社員数"]", "#社員数"],
+    options: ["[社員数]", "'社員数'", "社員数", "#社員数"],
     answer: "'社員数'",
     explanation: "SQL内で文字列リテラルはシングルクォートで囲みます。",
   },
